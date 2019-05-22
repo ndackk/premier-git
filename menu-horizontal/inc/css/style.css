@@ -1,0 +1,106 @@
+        body {
+            font-family: 'Source code pro', calibri, serif;
+            margin: 0px;
+            padding: 0px;
+            background-image: url(/home/ndack/Bureau/menu-horizontal/inc/img/simplon.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        
+        nav {
+            width: 100%;
+            background-color: #424558
+        }
+        
+        nav>ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        nav>ul::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        
+        nav>ul>li {
+            float: left;
+            position: relative;
+        }
+        
+        nav>ul>li>a {
+            padding: 20px 30px;
+            color: #FFF;
+        }
+        
+        nav>ul>li :hover a {
+            padding: 15px 30px 20px 30px;
+        }
+        
+        nav li {
+            list-style-type: none;
+        }
+        
+        nav a {
+            display: inline-block;
+            text-decoration: none
+        }
+        
+        nav li:hover .submenu {
+            display: inline-block;
+            position: absolute;
+            top: 100%;
+            left: 0px;
+            padding: 0px;
+            z-index: 1000;
+        }
+        
+        .submenu {
+            display: none;
+        }
+        
+        .submenu li {
+            border-bottom: #0070bb;
+        }
+        
+        .submenu li a {
+            padding: 15px 30px;
+            font-size: 13px;
+            color: #222538;
+            width: 270px;
+        }
+        
+        .menu-ndack :hover {
+            border-top: 5px solid #222538;
+            background-color: pink;
+        }
+        
+        .menu-kaire :hover {
+            border-top: 5px solid #222538;
+            background-color: pink;
+        }
+        
+        .menu-contact :hover {
+            border-top: 5px solid #222538;
+            background-color: pink;
+        }
+        
+        .menu-html .submenu li:hover {
+            border-top: 5px solid #222538;
+            background-color: pink;
+        }
+        
+        .submenu li a {
+            border-top: 5px solid #222538;
+            position: relative;
+            font-size: 20px;
+            background-color: pink;
+        }
+        
+        ul {
+            width: 100%;
+        }
+        
+        ul li {
+            display: block;
+        }
